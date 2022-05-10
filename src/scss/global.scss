@@ -6,7 +6,11 @@
     border: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 //BOOTSTRAP
 @import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+//FONTS
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
