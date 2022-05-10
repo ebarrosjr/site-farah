@@ -18,3 +18,20 @@
     
     }
 }
+
+.button{
+    text-decoration: none;
+    background-color: $color-secondary;
+    color: white;
+    align-self: center;
+    padding: 8px 23px;
+    border-radius: 15px;
+    transition: filter 0.3s;
+    font-size: 20px;
+    border:none;
+    outline: none;
+
+    &:hover{
+        filter:brightness(0.7);
+    }
+}
