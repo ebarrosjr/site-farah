@@ -1,0 +1,18 @@
+@import "../../scss/variaveis.scss";
+
+.footer{
+    height:250px ;
+    background-color: $color-primary;
+    display: flex;
+    align-items: center;
+    div{
+        section{
+            a{
+                color: $color-secondary;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

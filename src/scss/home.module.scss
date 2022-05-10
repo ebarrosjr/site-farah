@@ -1,5 +1,6 @@
 @import "./variaveis.scss";
 @import "./button.scss";
+@import "./responsive.module.scss";
 
 main{
     //SECAO DOUTOR FABIO
@@ -53,6 +54,7 @@ main{
 
     }
 
+    //QUALIDADES
     .empresa{
         background-color: $color-primary;
         height: 350px;
@@ -90,6 +92,7 @@ main{
         }
     }
 
+    //NOSSOS SERVICOS
     .nossoServico{
         height: 550px;
         display: flex;
@@ -111,6 +114,9 @@ main{
                             text-decoration: none;
                             color: $color-secondary;
                             font-size: 24px;
+                            &:hover{
+                                text-decoration: underline;
+                            }
                         }
                     }
                 }
@@ -118,6 +124,7 @@ main{
         }
     }
 
+    //COMO PODEMOS AJUDAR
     .ajuda{
         background-color: $color-primary;
         height: 150px;
@@ -125,6 +132,8 @@ main{
         align-items: center;
     }
 
+
+    //DICAS E SAUDE
     .dicasSaude{
         margin: 30px;
         display: flex;
@@ -158,3 +167,4 @@ main{
 
     }
 }
+

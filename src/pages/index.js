@@ -18,18 +18,15 @@ export default function Home() {
       <title>Centro Medico Dr. Fabio Farah</title>
     </Head>
 
-    <main className="d-flex flex-column">
+    <main>
 
       <section className={style.descricao}>
-        <div className="d-flex flex-row container text-center align-items-center">
+        <div className="d-flex flex-row container text-center justify-content-center align-items-center">
+          <figure className={style.image}>
+            <Image src="/images/farah.jpg" className="img-thumbnail rounded-circle" alt="Dr. Fabio Farah" height={350} width={350}/>
+          </figure>
           
-          <div className="col-md-6">
-            <figure className={style.image}>
-              <Image src="/images/farah.jpg" className="img-thumbnail rounded-circle" alt="Dr. Fabio Farah" height={350} width={350}/>
-            </figure>
-          </div>
-
-          <div className="col-md-6 d-flex justify-content-center">
+          <div className=" d-flex justify-content-center">
             <article className={style.text}>
               <h3>ginecologista</h3>
               <h1>Fabio Farah</h1>
@@ -211,7 +208,7 @@ export default function Home() {
             </figure>
 
             <figure className="col-md-3">
-              <Image src="/images/cirurgia-nosso-servico.jpg" width={300} height={300} />
+              <Image src="/images/cirurgia-nosso-servico.png" width={300} height={300} />
               <figcaption>
                 <Link href="/">
                   <a>Sabe aquela cirurgia? Agora é possível!</a>

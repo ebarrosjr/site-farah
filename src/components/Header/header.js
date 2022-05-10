@@ -20,7 +20,7 @@ export function Header(){
                             </Link>
                         </span>
                         <span>
-                            <Link href="www.instagram.com">
+                            <Link href="www.instagram.com.br">
                                 <a target="_blank">
                                     <FaInstagram color="#fff"/>
                                 </a>
