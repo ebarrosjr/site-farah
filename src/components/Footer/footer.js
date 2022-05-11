@@ -49,15 +49,67 @@ export default function Footer(){
                             <Image src="/images/logo_site.png" alt="Logo do footer" width={230} height={56} />
                         </figure>
                     </section>
-                    <section className="col-md-4 text-center"> 
-                        <h2>Links</h2>
+                    <section className="col-md-4"> 
+                        <h2 className="text-center">Links</h2>
                         <nav className="nav d-flex flex-column">
-                            <Link href="/">
-                                <a className="nav-link">Home</a>
-                            </Link>
-                            <Link href="/">
-                                <a className="nav-link">Servicos</a>
-                            </Link>
+                            <ul>
+                                <li>
+                                    <Link href="/">
+                                        <a className="nav-link py-1">Home</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/servicos/servicos">
+                                        <a className="nav-link py-1">Serviços</a>
+                                    </Link>
+                                        <ul>
+                                            <li>
+                                                <Link href="/servicos/ecocardiograma">
+                                                    <a className="nav-link py-1">
+                                                        Ecocardiograma Fetal
+                                                    </a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/servicos/sabe-aquela">
+                                                    <a className="nav-link py-1">
+                                                        Sabe Aquela Cirurgia? Agora e possivel
+                                                    </a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/servicos/prenatal">
+                                                    <a className="nav-link py-1">
+                                                        Pré Natal
+                                                    </a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/servicos/partos">
+                                                    <a className="nav-link py-1">
+                                                        Partos
+                                                    </a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/servicos/ultrassom">
+                                                    <a className="nav-link py-1">
+                                                        Ultrassonografia
+                                                    </a>
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link href="/servicos/consulta">
+                                                    <a className="nav-link py-1">
+                                                        Consulta
+                                                    </a>
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                </li>
+
+                            </ul>
+
                         </nav>
                     </section>
                     <section id="contato" className="text-center col-md-4">

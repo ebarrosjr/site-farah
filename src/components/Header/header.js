@@ -81,6 +81,20 @@ export function Header(){
                                                 <a className="dropdown-item">Partos</a>
                                             </Link>
                                         </li>
+                                        <li>
+                                            <Link href="/servicos/ultrassom">
+                                                <a className="dropdown-item">
+                                                    Ultrassonografia
+                                                </a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/servicos/consulta">
+                                                <a className="dropdown-item">
+                                                    Consulta
+                                                </a>
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">

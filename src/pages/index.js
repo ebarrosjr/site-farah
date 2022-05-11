@@ -199,7 +199,7 @@ export default function Home() {
           <h1>Nossos serviços</h1>
           <article className="d-flex flex-row container">
             <figure className="col-md-3">
-              <Image src="/images/ecocardiograma-nossos-servicos.jpg" width={300} height={300} />
+              <Image src="/images/ecocardiograma-nossos-servicos.jpg" width={300} height={300} alt="Nossos servicos - ecocardiograma" />
               <figcaption>
                 <Link href="/servicos/ecocardiograma">
                   <a>Ecocardiograma Fetal</a>
@@ -208,7 +208,7 @@ export default function Home() {
             </figure>
 
             <figure className="col-md-3">
-              <Image src="/images/cirurgia-nosso-servico.png" width={300} height={300} />
+              <Image src="/images/cirurgia-nosso-servico.png" width={300} height={300} alt="Nossos servicos - cirurgia" />
               <figcaption>
                 <Link href="/servicos/sabe-aquela">
                   <a>Sabe aquela cirurgia? Agora é possível!</a>
@@ -217,7 +217,7 @@ export default function Home() {
             </figure>
 
             <figure className="col-md-3">
-              <Image src="/images/prenatal-nossos-servicos.jpg" width={300} height={300} />
+              <Image src="/images/prenatal-nossos-servicos.jpg" width={300} height={300} alt="Nossos servicos - prenatal" />
               <figcaption>
                 <Link href="/servicos/prenatal">
                   <a>Pré Natal</a>
@@ -226,7 +226,7 @@ export default function Home() {
             </figure>
 
             <figure className="col-md-3">
-              <Image src="/images/consulta-nossos-servicos.jpg" width={300} height={300} />
+              <Image src="/images/consulta-nossos-servicos.jpg" width={300} height={300} alt="Nossos servicos - consulta" />
               <figcaption>
                 <Link href="/servicos/partos">
                   <a>Partos</a>
@@ -236,8 +236,8 @@ export default function Home() {
           </article>
 
           <section className={style.btn}>
-                        <Link href="https://consultoriolivre.com.br/doutor/fabio-farah">
-                            <a target="_blank">
+                        <Link href="/servicos/servicos">
+                            <a>
                               Conheça todos 
                             </a>
                         </Link>
@@ -255,7 +255,7 @@ export default function Home() {
               <p>Oferecemos uma variedade de produtos para te auxiliar durante todo o processo de gravidez.</p>
             </article>
             <section className={style.btn}>
-                  <Link href="/">
+                  <Link href="http://agendamentos.drfabiofarah.com.br/">
                       <a target="_blank">
                           Agende uma consulta
                       </a>
@@ -275,8 +275,8 @@ export default function Home() {
               <h5>O Mioma</h5>
               <p>O Mioma Miomas ou fibromas são tumores benignos do útero, consistindo em um distúrbio hormonal que causa um enovelamento das fibras musculares e assim, forma nódulos nesse órgão. Possuem uma coloração esbranquiçada e sua consistência é firme. Em sua maioria, os miomas são múltiplos. Fibroma é uma doença que afeta cerca de 49% das mulheres, […]</p>
               <section className={style.btn}>
-                  <Link href="/">
-                      <a target="_blank">
+                  <Link href="/dicas/mioma">
+                      <a>
                           Ler mais...
                       </a>
                   </Link>
@@ -286,14 +286,14 @@ export default function Home() {
 
         <article className="container d-flex flex-row">
           <figure className="col-md-1" >
-            <Image src="/images/rosa-dicas.jpg" width={70} height={70} alt="2019 rosa" />
+            <Image src="/images/rosa-dicas.jpg" width={130} height={130} alt="2019 rosa" />
           </figure>
           <figcaption className="col-md-11 d-flex flex-column">
               <h5>2019 Rosa</h5>
               <p>A #2019Rosa é uma campanha de conscientização, que tem como objetivo principal, reforçar o alerta as mulheres e a sociedade sobre a importância da prevenção e do diagnóstico precoce do câncer, e não somente do câncer de mama, mas também do câncer de colo de útero. No Brasil, as campanhas de conscientização sobre o câncer […]</p>
                             <section className={style.btn}>
-                  <Link href="/">
-                      <a target="_blank">
+                  <Link href="/dicas/rosa">
+                      <a>
                           Ler mais...
                       </a>
                   </Link>
@@ -303,14 +303,14 @@ export default function Home() {
 
         <article className="container d-flex flex-row">
           <figure className="col-md-1" >
-            <Image src="/images/mielomeningococe-dicas.png" width={70} height={70} alt="Importancia do acido folico" />
+            <Image src="/images/mielomeningococe-dicas.png" width={130} height={130} alt="Importancia do acido folico" />
           </figure>
           <figcaption className="col-md-11 d-flex flex-column">
               <h5>Importância do Acido Fólico</h5>
               <p>Uma das recomendações dos ginecologistas para as mulheres que pretendem engravidar é que elas tomem ácido fólico pelo menos três meses antes de engravidar – e continuem com o suplemento durante o primeiro trimestre da gravidez. O folato (ácido fólico), uma vitamina do complexo B, é fundamental para que a coluna doBebê se desenvolva corretamente, […]</p>
                             <section className={style.btn}>
-                  <Link href="/">
-                      <a target="_blank">
+                  <Link href="/dicas/acido">
+                      <a>
                           Ler mais...
                       </a>
                   </Link>
@@ -320,14 +320,14 @@ export default function Home() {
 
         <article className="container d-flex flex-row">
           <figure className="col-md-1" >
-            <Image src="/images/preparo-amamentacao-gravidez-dicas.jpg" width={70} height={70} alt="prevencao cancer de mama" />
+            <Image src="/images/preparo-amamentacao-gravidez-dicas.jpg" width={130} height={130} alt="prevencao cancer de mama" />
           </figure>
           <figcaption className="col-md-11 d-flex flex-column">
               <h5>Prevenção do Câncer de Mama</h5>
               <p>O câncer de mama na verdade ainda não pode ser prevenido, mas sim diagnosticado o mais cedo possível. Para isto recomenda-se que as mulheres conheçam seu corpo desde que apresentem o crescimento das mamas na adolescência. O auto-exame das mamas, hoje em dia, deve ser chamado de auto-cuidado, e pode ser feito pelo menos uma […]</p>
                             <section className={style.btn}>
-                  <Link href="/">
-                      <a target="_blank">
+                  <Link href="/dicas/cancer">
+                      <a>
                           Ler mais...
                       </a>
                   </Link>
@@ -337,14 +337,14 @@ export default function Home() {
 
         <article className="container d-flex flex-row">
           <figure className="col-md-1" >
-            <Image src="/images/amamentacao-dicas.jpg" width={70} height={70} alt="amamentacao" />
+            <Image src="/images/amamentacao-dicas.jpg" width={130} height={130} alt="amamentacao" />
           </figure>
           <figcaption className="col-md-11 d-flex flex-column">
               <h5>Entendendo a Amamentação</h5>
               <p>Quando o bebê chega ao mundo é um momento especial Tudo é novo, emocionante e cheio de admiração. Também há muito em que se pensar. Como será o meu bebê ? Será sadio ? Serei capaz de enfrentar essa responsabilidade ? Além disso, é um bom momento para pensar na amamentação e em como ela […]</p>
                             <section className={style.btn}>
-                  <Link href="/">
-                      <a target="_blank">
+                  <Link href="/dicas/amamentacao">
+                      <a>
                           Ler mais...
                       </a>
                   </Link>
@@ -354,14 +354,14 @@ export default function Home() {
 
         <article className="container d-flex flex-row">
           <figure className="col-md-1" >
-            <Image src="/images/gravida_cozinha-dicas.jpg" width={70} height={70} alt="alimentacao gestante" />
+            <Image src="/images/gravida_cozinha-dicas.jpg" width={130} height={130} alt="alimentacao gestante" />
           </figure>
           <figcaption className="col-md-11 d-flex flex-column">
               <h5>A alimentação para as gestantes</h5>
               <p>O corpo da mulher passa por muitas mudanças durante a gestação e por isso a necessidade de vitaminas do complexo B, ácido fólico, ferro, zinco, iodo, selênio, vitamina A e vitamina C aumentam neste período, então pensando nisso aqui vão umas dicas para que a futura mamãe possa se manter saudável junto com o seu […]</p>
                             <section className={style.btn}>
-                  <Link href="/">
-                      <a target="_blank">
+                  <Link href="/dicas/alimentacao">
+                      <a>
                           Ler mais...
                       </a>
                   </Link>
@@ -371,14 +371,14 @@ export default function Home() {
 
         <article className="container d-flex flex-row">
           <figure className="col-md-1" >
-            <Image src="/images/cancer-dicas.jpg" width={70} height={70} alt="Prevencao cancer do ultero" />
+            <Image src="/images/cancer-dicas.jpg" width={130} height={130} alt="Prevencao cancer do ultero" />
           </figure>
           <figcaption className="col-md-11 d-flex flex-column">
               <h5>Como se Prevenir do Câncer de Colo do Útero</h5>
               <p>Olá, como nosso primeiro assunto, vamos tratar do câncer do colo do útero, uma doença que é essencialmente feminina. O mais comum modo de desenvolvimento de um câncer do colo de útero é a partir de alterações pré-cancerosas. E ele pode ser impedido de duas maneiras: a primeira é detectar e tratar as lesões pré-cancerosas […]</p>
                             <section className={style.btn}>
-                  <Link href="/">
-                      <a target="_blank">
+                  <Link href="/dicas/cancerColo">
+                      <a>
                           Ler mais...
                       </a>
                   </Link>

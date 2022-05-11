@@ -27,6 +27,20 @@
             "subitems": [],
             "imagem": "",
             "content": "<hr/><p><strong>Parto Normal ou Cesárea.</strong></p><p><strong>Valores:</strong></p><p>A partir de R$2.800,00</p><p><strong>Duvidas:</strong></p><p>Rio: 98319-5552</p><p>Magé/Piabetá/Caxias: 98319-5552</p><p>São Gonçalo/Itaboraí : 99751-5580</p>"
-        }      
+        },
+        {
+            "title": "Ultrassonografias",   
+            "slug": "ultrassom",
+            "subitems": [],
+            "imagem": "",
+            "content": "<hr/><ul><li>Obstétrica R$ 80,00</li><li>Obstétrica 3D/4D R$ 120,00</li><li>Obstétrica morfológica R$ 120,00</li><li>Pélvica R$ 80,00</li><li>Mama R$ 80,00</li><li>Tireóide R$ 80,00</li><li>Próstata R$ 80,00</li><li>Abdomen Total R$ 80,00</li><li>Renal e vias urinárias R$ 80,00</li></ul>"
+        },
+        {
+            "title": "Consultas",   
+            "slug": "consultas",
+            "subitems": [],
+            "imagem": "",
+            "content": "<hr/><p><strong>A partir de R$ 70,00</strong></p>"
+        }
     ]
 }
