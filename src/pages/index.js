@@ -201,7 +201,7 @@ export default function Home() {
             <figure className="col-md-3">
               <Image src="/images/ecocardiograma-nossos-servicos.jpg" width={300} height={300} />
               <figcaption>
-                <Link href="/">
+                <Link href="/servicos/ecocardiograma">
                   <a>Ecocardiograma Fetal</a>
                 </Link>
               </figcaption>
@@ -210,7 +210,7 @@ export default function Home() {
             <figure className="col-md-3">
               <Image src="/images/cirurgia-nosso-servico.png" width={300} height={300} />
               <figcaption>
-                <Link href="/">
+                <Link href="/servicos/sabe-aquela">
                   <a>Sabe aquela cirurgia? Agora é possível!</a>
                 </Link>
               </figcaption>
@@ -219,7 +219,7 @@ export default function Home() {
             <figure className="col-md-3">
               <Image src="/images/prenatal-nossos-servicos.jpg" width={300} height={300} />
               <figcaption>
-                <Link href="/">
+                <Link href="/servicos/prenatal">
                   <a>Pré Natal</a>
                 </Link>
               </figcaption>
@@ -228,7 +228,7 @@ export default function Home() {
             <figure className="col-md-3">
               <Image src="/images/consulta-nossos-servicos.jpg" width={300} height={300} />
               <figcaption>
-                <Link href="/">
+                <Link href="/servicos/partos">
                   <a>Partos</a>
                 </Link>
               </figcaption>
