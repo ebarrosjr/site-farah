@@ -1,0 +1,32 @@
+{
+    "pages": [
+        {
+            "title": "Ecocardiograma Fetal", 
+            "slug": "ecocardiograma",
+            "subitems": [],
+            "imagem": "../public/images/ecocardiograma-nossos-servicos.jpg",
+            "content": "<hr/><p>O que não falta hoje em dia são exames realizados no pré-natal que podem indicar alguma anormalidade no bebê que ainda está se formando dentro da barriga da mamãe. Esse diagnóstico tão precoce é considerado vital, porque algum tratamento pode ser iniciado antes mesmo do nascimento.</p> <p>Dentre os exames está o Ecocardiograma fetal, ou ecofetal, que vai observar o coraçãozinho do bebê que ainda não nasceu. É um ultrassom bem parecido com os outros já realizados pela mamãe, mas por ele o médico especialista em cardiologia fetal vai observar especificamente as estruturas do coração e sua funcionalidade, verificando se estão de acordo com o esperado.</p><p>Uma anormalidade congênita do coração aparece em 5 para cada 100 nascimentos. Dos bebês com alteração congênita do coração, apenas 10% têm algum fator de risco.</p><p>A Sociedade Brasileira de Cardiologia recomenda que esse exame seja realizado de rotina no pré-natal em todas as gestações. O ecofetal existe no sistema público de saúde, mas somente as mamães que têm algum risco para a má-formação do coração do bebê são as que realizam o exame. Há convênios que cobrem o ecocardiograma fetal.</p><p>A gestante não precisa de nenhuma preparação prévia para a realização do exame. É um exame indolor onde o médico colocará um gel na barriga da mamãe e através de um aparelho são geradas imagens do bebê dentro da barriga. O exame ecofetal dura cerca de 20 minutos, mas esse tempo pode ser menor caso o médico consiga verificar os dados de que precisa rapidamente ou mesmo maior se houver dificuldade na visualização das imagens.</p><p>O médico poderá dizer ao término do exame se está tudo bem, mas, às vezes, o médico pode querer rever o exame que foi gravado para analisar melhor os detalhes e só depois divulgar o resultado.</p><p>A melhor fase para fazer o exame é entre 26/29 semanas!</p><p>Os fatores de riscos para que o bebê venha a apresentar uma alteração congênita do coração podem ser maternos, familiares e fetais.</p><p>Entre os riscos maternos estão as mamães que tem diabetes mesmo antes de engravidar, cardiopatia congênita, exposição a remédios e drogas que causam má-formação do bebê (anticonvulsivantes, antidepressivos, cocaína, álcool), rubéola durante a gravidez, e idade materna muito avançada ou muito jovem.</p><p>Histórico familiar de cardiopatia congênita ou síndromes genéticas ou gravidez anterior com alteração congênita do coração também elevam o risco. Os fatores fetais retardo do crescimento intra-uterino, suspeita de anormalidade cromossômica ou de anormalidade cardíaca verificada no ultra-som obstétrico, gravidez gemelar entre outros.</p><p>É conveniente que a mamãe leve todos os exames que fez para o cardiologista fetal examinar, principalmente o ultra-som morfológico. Durante a realização da ecografia morfológica, a mamãe deve pedir para que a ultra-sonografista observe mais atentamente o coração do bebê, pois caso se verifique alguma anormalidade encaminhe a mamãe rapidamente para a realização do ecofetal.</p><p>Realizar um bom pré-natal é a certeza de que a mamãe está fazendo tudo o que pode para o bem-estar do seu bebê.</p><p>Não deixe de questionar na hora do ultra-som de rotina se está tudo bem com o coração do seu bebê e se não é necessário a realização imediata do exame ecocardiograma fetal.</p><p>Se há histórico de anormalidade congênita do coração na família da mamãe ou do papai diga logo ao seu médico para que a indicação do ecocardiograma fetal seja bem orientada.</p>"
+        },
+        {
+            "title": "Sabe aquela cirurgia? Agora é possível!",   
+            "slug": "sabe-aquela",
+            "subitems": [],
+            "imagem": "",
+            "content": "<hr/><p><strong>Hoje, nossa equipe conta com vários cirurgiões experientes!</strong></p><p>A Clínica esta remodelada, e muito bem estruturada para oferecemos uma excelente alternativa, se você esta há muito tempo esperando para fazer sua cirurgia de <strong>períneo, mioma, vesícula, vasectomia ou hérnia,</strong> venha conhecer nossa clinica e nossa equipe médica, tenho certeza que você vai se surpreender com a qualidade, e a facilidade de parcelar qualquer procedimento em até 10 vezes nos cartões dando um sinal no ato.</p><p><strong>Tire suas dúvidas e agende: 99919-5580 | 99751-5580</strong></p>"
+        },
+        {
+            "title": "Pré Natal",   
+            "slug": "prenatal",
+            "subitems": [],
+            "imagem": "",
+            "content": "<hr/><p>O acompanhamento pré-natal é uma das maiores provas de amor que uma mãe pode dar ao filho quando ele ainda está na sua barriga. Afinal, é através desses exames que a mulher pode cuidar de sua saúde e do bem-estar do bebê, evitando diversas doenças e complicações que podem trazer inclusive o parto prematuro e o aborto. “Os cuidados pré-natais têm também um aspecto muito importante, que é o de orientar a futura mãe sobre o que esperar e como agir durante a gestação”, complementa o ginecologista e obstetra Fredric D. Frigoletto, do General Hospital de Boston (EUA) e um dos autores do livro <em>Primary Care of Woman</em> (ainda sem tradução para o Brasil).</p><p>Normalmente as consultas acontecem mensalmente, e a semana depende muito de qual o momento em que você descobriu a gravidez e foi ao médico pela primeira vez. Por isso mesmo, os exames acabam sendo mais divididos entre os trimestres, e os ultrassons respeitam melhor a divisão das semanas. Confira a seguir quais são os principais testes pedidos nessa época, e quando são feitos, para você poder cobrar todos do seu obstetra!</p>"
+        },   
+        {
+            "title": "Partos",   
+            "slug": "partos",
+            "subitems": [],
+            "imagem": "",
+            "content": "<hr/><p><strong>Parto Normal ou Cesárea.</strong></p><p><strong>Valores:</strong></p><p>A partir de R$2.800,00</p><p><strong>Duvidas:</strong></p><p>Rio: 98319-5552</p><p>Magé/Piabetá/Caxias: 98319-5552</p><p>São Gonçalo/Itaboraí : 99751-5580</p>"
+        }      
+    ]
+}

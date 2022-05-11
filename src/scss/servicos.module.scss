@@ -1,0 +1,17 @@
+@import "./variaveis.scss";
+
+.servico{
+    article{
+        div{
+            div{
+                padding: 10px;
+                div{
+                    h2,h4{
+                        color: $color-secondary;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -35,3 +35,26 @@
         }
     }
 }
+
+.menu{
+    nav{
+      section{
+          button{
+              outline: none;
+              border: none;
+              background-color: $color-primary;
+          }
+          ul{
+              li{
+                  a{
+                      font-size: 20px;
+                      color: $color-secondary !important;  
+                  }
+                    
+                  
+              }
+          }
+      }
+    }
+   
+}
