@@ -85,9 +85,9 @@ export default function Home() {
                 <p className="card-text">Nossa equipe esta preparada para lhe acompanhar nesse momento e facilitar ao maximo sua escolha e acesso ao procedimento</p>
                 <p className="card-text">Agende uma avaliação.</p>
                   <section className={style.btn}>
-                      <Link href="/dicas/mioma">
+                      <Link href="https://consultoriolivre.com.br/">
                           <a>
-                              Ler mais...
+                              Agendar
                           </a>
                       </Link>
                 </section>
@@ -110,9 +110,9 @@ export default function Home() {
               <p className="card-text">Se esse ano você ainda não colocou sua rotina ginecológica em dia, fique relaxe, 
                 agende uma consulta e vamos resolver isso!</p>
                 <section className={style.btn}>
-                    <Link href="/dicas/rosa">
+                    <Link href="https://consultoriolivre.com.br/">
                         <a>
-                            Ler mais...
+                            Agendar
                         </a>
                     </Link>
               </section>
@@ -133,9 +133,9 @@ export default function Home() {
               <p className="card-text">Agende uma avaliação e fique tranquila.</p>
               <p className="card-text"><strong>Laqueadura é um procedimento contraceptivo para mulheres com têm certeza que não desejam uma gravidez futura.</strong></p>
               <section className={style.btn}>
-                    <Link href="/dicas/acido">
+                    <Link href="https://consultoriolivre.com.br/">
                         <a>
-                            Ler mais...
+                            Agendar
                         </a>
                     </Link>
               </section>
@@ -160,9 +160,9 @@ export default function Home() {
                 <p className="card-text">Agende uma avaliação e reserve sua vaga.</p>
                 <p className="card-text"><strong>Com mais de 15mil partos na carreira, estamos a sua espera para esse momento tão especial!</strong></p>
                 <section className={style.btn}>
-                      <Link href="/dicas/cancer">
+                      <Link href="https://consultoriolivre.com.br/">
                           <a>
-                              Ler mais...
+                              Agendar
                           </a>
                       </Link>
                 </section>
@@ -182,9 +182,9 @@ export default function Home() {
                 <p className="card-text">Agende uma consulta e venha ficar tranquila.</p>
                 <p className="card-text"><strong>Venha acompanhar seu pré-natal com umas das equipes mais experientes do Estado.</strong></p>
                 <section className={style.btn}>
-                      <Link href="/dicas/amamentacao">
+                      <Link href="https://consultoriolivre.com.br/">
                           <a>
-                              Ler mais...
+                              Agendar
                           </a>
                       </Link>
                 </section>

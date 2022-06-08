@@ -28,7 +28,7 @@ export function Header(){
                         </span>
                     </section>
                     <section className={styles.agendar}>
-                        <Link href="https://consultoriolivre.com.br/doutor/fabio-farah">
+                        <Link href="https://consultoriolivre.com.br/">
                             <a target="_blank">
                                 <span>
                                     <FaClock/>
