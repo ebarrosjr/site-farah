@@ -2,14 +2,14 @@
 @import "../../scss/button.scss";
 
 .footer{
-    height:300px ;
-    background-color: $color-primary;
+    padding: 40px;
+    background-color: $color-terceary;
     display: flex;
     align-items: center;
     div{
         section{
             a{
-                color: $color-secondary;
+                color: white;
                 &:hover{
                     text-decoration: underline;
                 }
@@ -20,7 +20,7 @@
 
 @media(max-width:767px){
     .footer{
-        height: 750px !important;
+        padding: 50px !important;
         div{
             flex-direction: column !important;
         }

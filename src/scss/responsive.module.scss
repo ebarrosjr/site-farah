@@ -7,37 +7,8 @@
             }  
         }
 
-        .bemVindo{
-            div{
-                flex-direction: column !important;
-                text-align: center;
-            }
-        }
-        
-        .empresa{
-            height: 700px !important;
-            div{
-                display: grid !important;
-                grid-template-columns: 1fr 1fr !important;
-            }
-        }
-
-
-        .nossoServico{
-            height: 850px !important;
-            div{
-                article{
-                    display: grid !important;
-                    grid-template-columns: 1fr 1fr;
-                }
-                
-            }
-        }
-
         .dicasSaude{
             article{
-                flex-direction: column !important;
-                align-items: center;
                 text-align: center;
 
                 figcaption{
@@ -54,38 +25,6 @@
 
 @media(max-width:424px){
     main{
-        .empresa{
-            height: 1100px !important;
-            div{
-                display: flex !important;
-                flex-direction: column !important;
-            }
-        }
-
-
-        .nossoServico{
-            height: 1700px !important;
-            div{
-                article{
-                    display: flex !important;
-                    flex-direction: column !important;
-                }
-                
-            }
-        }
-
-        .ajuda{
-            height: 300px !important;
-            div{
-                flex-direction: column !important;
-                justify-content: center;
-                align-items: center;
-                article{
-                    text-align: center;
-                }
-            }
-        }
-
         .dicasSaude{
             text-align: center;
         }

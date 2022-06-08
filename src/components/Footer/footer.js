@@ -46,7 +46,7 @@ export default function Footer(){
                 <div className="text-white d-flex flex-row container align-items-center">
                     <section className="col-md-4">
                         <figure>
-                            <Image src="/images/logo_site.png" alt="Logo do footer" width={230} height={56} />
+                            <Image src="/images/logo-footer.svg" alt="Logo do footer" width={230} height={56} />
                         </figure>
                     </section>
                     <section className="col-md-4"> 
@@ -59,49 +59,42 @@ export default function Footer(){
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/servicos/servicos">
+
                                         <a className="nav-link py-1">Serviços</a>
-                                    </Link>
+
                                         <ul>
                                             <li>
-                                                <Link href="/servicos/ecocardiograma">
+                                                <Link href="#mioma">
                                                     <a className="nav-link py-1">
-                                                        Ecocardiograma Fetal
+                                                        Mioma e Histerectomia
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/servicos/sabe-aquela">
+                                                <Link href="#exame-preventivo">
                                                     <a className="nav-link py-1">
-                                                        Sabe Aquela Cirurgia? Agora e possivel
+                                                        Exame Preventivo
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/servicos/prenatal">
+                                                <Link href="#pre-natal">
                                                     <a className="nav-link py-1">
                                                         Pré Natal
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/servicos/partos">
+                                                <Link href="#parto">
                                                     <a className="nav-link py-1">
                                                         Partos
                                                     </a>
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link href="/servicos/ultrassom">
+                                                <Link href="#laqueadura">
                                                     <a className="nav-link py-1">
-                                                        Ultrassonografia
-                                                    </a>
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link href="/servicos/consulta">
-                                                    <a className="nav-link py-1">
-                                                        Consulta
+                                                        Laqueadura
                                                     </a>
                                                 </Link>
                                             </li>

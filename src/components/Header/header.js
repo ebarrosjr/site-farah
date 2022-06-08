@@ -13,14 +13,14 @@ export function Header(){
                 <div className="container-fluid d-flex flex-row justify-content-between">
                     <section>
                         <span className="px-2">
-                            <Link href="www.facebook.com">
+                            <Link href="https://www.facebook.com/drfabiofarah">
                                 <a target="_blank">
                                     <FaFacebook color="#fff"/>
                                 </a>
                             </Link>
                         </span>
                         <span>
-                            <Link href="www.instagram.com.br">
+                            <Link href="https://www.instagram.com/drfabiofarahmedico/">
                                 <a target="_blank">
                                     <FaInstagram color="#fff"/>
                                 </a>
@@ -45,7 +45,7 @@ export function Header(){
                     <section className="container">
                         <Link href="/">
                             <a className="navbar-brand">
-                                <Image src="/images/logo_site.png" height={65} width={280} alt="Logo site" />
+                                <Image src="/images/logo.svg" height={65} width={200} alt="Logo site" />
                             </a>
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-nav" aria-controls="menu-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,36 +62,29 @@ export function Header(){
                                     <a className="nav-link dropdown-toggle" href="#" id="menu-drop" data-bs-toggle="dropdown" aria-expanded="false">Serviços</a>
                                     <ul className="dropdown-menu" aria-labelledby="menu-drop">
                                         <li>
-                                            <Link href="/servicos/ecocardiograma"> 
-                                                <a className="dropdown-item"> Ecocardiograma Fetal </a>
+                                            <Link href="#mioma"> 
+                                                <a className="dropdown-item"> Mioma e Histerectomia </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/servicos/sabe-aquela">
-                                                <a className="dropdown-item"> Sabe Aquela Cirurgia? Agora e possivel </a>
+                                            <Link href="#exame-preventivo">
+                                                <a className="dropdown-item">Exame Preventivo </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/servicos/prenatal">
+                                            <Link href="#pre-natal">
                                                 <a className="dropdown-item"> Pré Natal </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/servicos/partos">
+                                            <Link href="#parto">
                                                 <a className="dropdown-item">Partos</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/servicos/ultrassom">
+                                            <Link href="#laqueadura">
                                                 <a className="dropdown-item">
-                                                    Ultrassonografia
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/servicos/consulta">
-                                                <a className="dropdown-item">
-                                                    Consulta
+                                                    Laqueadura
                                                 </a>
                                             </Link>
                                         </li>

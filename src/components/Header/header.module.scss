@@ -1,7 +1,7 @@
 @import "../../scss/variaveis.scss";
 
 .header{
-    background-color: $color-primary;
+    background-color: $color-terceary;
     height: 50px;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@
           button{
               outline: none;
               border: none;
-              background-color: $color-primary;
+              background-color: $color-secondary;
           }
           ul{
               li{
